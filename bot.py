@@ -7,7 +7,8 @@ from orrnob_drops_automation import base
 from core.token import get_token
 from core.info import get_info
 from core.game import process_play_game
-
+from keep_alive import keep_alive
+keep_alive()
 
 class Moonbix:
     def __init__(self):
